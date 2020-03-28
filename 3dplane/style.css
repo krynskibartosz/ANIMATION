@@ -1,0 +1,17 @@
+
+body{
+    perspective: 900px;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.card{
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 2;
+    background: url(./hero.jpg);
+    background-size: cover;
+    backface-visibility: hidden;
+}
